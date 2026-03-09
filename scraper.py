@@ -91,13 +91,17 @@ def fetch_feed_data():
     
     print(f"Total articles fetched: {len(articles)}")
     return articles
+import time
+
 def categorize_articles(articles):
     if not articles:
         return []
 
-    print(f"Categorizing {len(articles)} articles using Gemini...")
+    # Limit to 100 articles to avoid hitting token limits or timeout
+    articles = articles[:100]
+    print(f"Categorizing {len(articles)} articles using Gemini (with retry logic)...")
     
-    # Create input representation for the AI
+    # Create input representation
     articles_payload = []
     for i, a in enumerate(articles):
         articles_payload.append({
@@ -107,71 +111,71 @@ def categorize_articles(articles):
         })
     
     prompt = f"""
-    Please categorize the following news articles into EXACTLY one of these categories:
+    Categorize these news articles into:
     - Bundesinnenpolitik
-    - Ausland (DE) (This refers to foreign policy and international news)
-    - Landespolitik von ba-Wü (Politics of Baden-Württemberg)
-    - Wirtschaft (Economy)
-    - Andere (Use this if it doesn't clearly fit any of the above, e.g., sports, entertainment, unrelated local news)
+    - Ausland (DE)
+    - Landespolitik von ba-Wü
+    - Wirtschaft
+    - Andere (if no clear match)
 
-    Also, assess whether the news is highly important ("important": true) or just secondary everyday news ("important": false).
-
-    Articles:
-    {json.dumps(articles_payload, ensure_ascii=False)}
-
-    Output valid JSON ONLY. The JSON must be a list of objects, where each object has "idx" (integer), "category" (string), and "important" (boolean).
+    Also assess importance ("important": true/false).
+    Articles: {json.dumps(articles_payload, ensure_ascii=False)}
+    Output valid JSON array of objects with "idx", "category", "important".
     """
     
-    try:
-        if not API_KEY:
-            raise ValueError("GEMINI_API_KEY is empty or not set.")
-        
-        response = client.models.generate_content(
-            model=MODEL_ID,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                safety_settings=safety_settings,
-                response_mime_type='application/json'
-            )
-        )
-        
-        if not response.text:
-            print("AI response was empty. Check safety filters or prompt.")
-            return articles # Return un-categorized
-
-        classification_result = response.parsed
-        
-        # In case parsed is not available or doesn't work as expected, fallback to json.loads
-        if not classification_result:
-            text_response = response.text.strip()
-            # Remove markdown notation if the model returns it
-            if text_response.startswith('```json'):
-                text_response = text_response[7:]
-            if text_response.endswith('```'):
-                text_response = text_response[:-3]
-            classification_result = json.loads(text_response.strip())
-        
-        # Map back to articles
-        count = 0
-        for item in classification_result:
-            idx = item.get("idx")
-            cat = item.get("category", "Andere")
-            important = item.get("important", False)
-            if idx is not None and idx < len(articles):
-                if cat not in CATEGORIES:
-                    cat = "Andere"
-                articles[idx]["category"] = cat
-                articles[idx]["is_important"] = important
-                count += 1
-        print(f"Successfully categorized {count} articles.")
-                
-    except Exception as e:
-        print(f"Error during AI categorization: {e}")
-        # Mark all as Andere so they don't break the JSON
-        for a in articles:
-            a["category"] = "Andere"
-            a["is_important"] = False
+    max_retries = 3
+    retry_delay = 5 # seconds
+    
+    for attempt in range(max_retries):
+        try:
+            if not API_KEY:
+                raise ValueError("GEMINI_API_KEY is not set.")
             
+            response = client.models.generate_content(
+                model=MODEL_ID,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    safety_settings=safety_settings,
+                    response_mime_type='application/json'
+                )
+            )
+            
+            classification_result = response.parsed
+            
+            if not classification_result and response.text:
+                # Fallback for manual parsing
+                text = response.text.strip()
+                if "```json" in text:
+                    text = text.split("```json")[1].split("```")[0].strip()
+                classification_result = json.loads(text)
+            
+            if classification_result:
+                count = 0
+                for item in classification_result:
+                    idx = item.get("idx")
+                    if idx is not None and idx < len(articles):
+                        articles[idx]["category"] = item.get("category", "Andere")
+                        articles[idx]["is_important"] = item.get("important", False)
+                        count += 1
+                print(f"Successfully categorized {count} articles.")
+                return articles
+                
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed: {e}")
+            if "429" in str(e) or "Too Many Requests" in str(e):
+                if attempt < max_retries - 1:
+                    print(f"Rate limited. Retrying in {retry_delay}s...")
+                    time.sleep(retry_delay)
+                    retry_delay *= 2 # Exponential backoff
+                    continue
+            
+            # For other errors or if out of retries
+            break
+            
+    print("Categorization failed after retries. Keeping original data.")
+    for a in articles:
+        a["category"] = a.get("category", "Andere")
+        a["is_important"] = a.get("is_important", False)
     return articles
 
 def merge_and_save_articles(new_articles):

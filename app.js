@@ -6,12 +6,13 @@ const CATEGORIES = [
 ];
 
 let allArticles = [];
+let allSummaries = {};
 let availableDays = [];
 let availableWeeks = [];
 
 let currentView = 'täglich'; // 'täglich' or 'wöchentlich'
 let currentIndex = 0; // 0 is the most recent (latest date/week)
-let showUnimportant = false;
+let showUnimportant = true;
 
 // DOM Elements
 const mainContent = document.getElementById('mainContent');
@@ -22,6 +23,8 @@ const btnNext = document.getElementById('btnNext');
 const currentTimeLabel = document.getElementById('currentTimeLabel');
 const lastUpdatedEl = document.getElementById('lastUpdated');
 const checkUnimportant = document.getElementById('checkUnimportant');
+const aiSummary = document.getElementById('aiSummary');
+const aiSummaryText = document.getElementById('aiSummaryText');
 const categoryTemplate = document.getElementById('category-template');
 const articleTemplate = document.getElementById('article-template');
 
@@ -46,6 +49,7 @@ async function loadData() {
         const data = await response.json();
         
         allArticles = data.articles || [];
+        allSummaries = data.summaries || {};
         updateTimestamp(data.lastUpdated);
         
         processTimelines();
@@ -193,6 +197,7 @@ function updateTimeLabel() {
 
 function renderView() {
     updateTimeLabel();
+    updateSummary();
     
     mainContent.innerHTML = '';
     
@@ -253,12 +258,31 @@ function renderView() {
                 
                 articleClone.querySelector('.card-description').textContent = article.description || "Keine Beschreibung verfügbar.";
                 
+                // Add rank score badge
+                const rankBadge = document.createElement('div');
+                rankBadge.className = 'rank-badge';
+                rankBadge.textContent = `${Math.round(article.rank_score || 0)}%`;
+                card.appendChild(rankBadge);
+                
                 container.appendChild(articleClone);
             });
         }
         
         mainContent.appendChild(clone);
     });
+}
+
+function updateSummary() {
+    const timeFilterStr = currentView === 'täglich' ? availableDays[currentIndex] : availableWeeks[currentIndex];
+    const summary = allSummaries[timeFilterStr];
+    
+    if (summary) {
+        aiSummary.style.display = 'block';
+        // Use marked.js for full markdown support
+        aiSummaryText.innerHTML = marked.parse(summary);
+    } else {
+        aiSummary.style.display = 'none';
+    }
 }
 
 // Initialize

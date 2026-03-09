@@ -1,14 +1,1273 @@
 {
-  "lastUpdated": "2026-03-09T15:00:00Z",
+  "lastUpdated": "2026-03-09T19:51:28.577935+00:00",
   "articles": [
     {
-      "title": "Bundestag beschließt Verschärfung des Waffenrechts",
-      "description": "Nach langen Debatten hat der Bundestag heute neue Regelungen zum Waffenbesitz verabschiedet. Das Gesetz sieht unter anderem eine Ausweitung der Messerverbotszonen vor und verschärft die Überprüfung von Antragstellern.",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/bundestag-waffenrecht-100.html",
-      "date": "2026-03-09T14:20:00Z",
+      "title": "Wie der Angriff auf Chamenei vorbereitet wurde",
+      "link": "https://www.tagesschau.de/ausland/asien/iran-ablauf-angriff-chamenei-100.html",
+      "description": "Die USA und Israel haben früh offengelegt, dass der Angriff auf Ajatollah Chamenei auf präzisen Geheimdienstinformationen beruhte. Medienrecherchen zeigen, wie tief die Dienste ins Innerste der iranischen Führung sehen konnten. Von E Aretz.",
+      "date": "2026-03-09T16:27:48+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 70.0
+    },
+    {
+      "title": "NATO-Abwehrsystem: Erneut Rakete aus Iran über der Türkei abgefangen",
+      "link": "https://www.tagesschau.de/ausland/asien/zweite-rakete-iran-tuerkei-100.html",
+      "description": "Die NATO-Luftabwehr hat erneut eine Rakete aus Iran über der Türkei abgeschossen. Bundesaußenminister Wadephul ist für Gespräche nach Zypern gereist, das zuvor Ziel einer iranischen Rakete gewesen sein soll.",
+      "date": "2026-03-09T19:43:19+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 67.0
+    },
+    {
+      "title": "Iran-Krieg: ++ Mojtaba Chamenei laut Staatsmedien neuer Führer ++",
+      "link": "https://www.tagesschau.de/newsticker/liveblog-iran-krieg-110.html",
+      "description": "Irans Staatsmedien verkünden, dass Mojtaba Chamenei Nachfolger seines Vaters als oberster Führer wird. Frankreichs Präsident Macron hat mit Irans Präsidenten Peseschkian telefoniert. Alle Entwicklungen im Liveblog.",
+      "date": "2026-03-08T22:33:56+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 66.5
+    },
+    {
+      "title": "Liveblog zur Wahl: Ergebnisse und Reaktionen",
+      "link": "https://www.zdfheute.de/politik/deutschland/landtagswahl-baden-wuerttemberg-prognose-hochrechnung-ergebnisse-liveticker-100.html",
+      "description": "Die Landtagswahl in Baden-Württemberg ist entschieden: Die Grünen haben vor der CDU gewonnen, die AfD belegt Platz 3. Die SPD hat es knapp in den neuen Landtag geschafft.",
+      "date": "2026-03-09T18:30:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": true,
+      "rank_score": 64.5
+    },
+    {
+      "title": "Iran: Wer ist Modschtaba Chamenei?",
+      "link": "https://www.tagesschau.de/ausland/asien/iran-modschtaba-chamenei-portraet-100.html",
+      "description": "Modschtaba Chamenei ist der neue oberste Führer Irans. Nach dem Tod seines Vaters war sein Name schon länger im Gespräch. Wer ist Modschtaba und was bedeutet die Entscheidung für das Land? Von L. Kaufmann.",
+      "date": "2026-03-09T08:59:30+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 63.0
+    },
+    {
+      "title": "Iran-Krieg: Alle Nachrichten im Liveblog",
+      "link": "https://www.zdfheute.de/politik/ausland/iran-israel-usa-angriff-liveblog-100.html",
+      "description": "Israel und die USA greifen Iran an, das Teheraner Regime schlägt mit Raketenangriffen auf Israel und US-Basen zurück. Alle Entwicklungen zur Eskalation im Nahen Osten im Liveblog.",
+      "date": "2026-03-09T19:10:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 62.0
+    },
+    {
+      "title": "Modschtaba Chamenei folgt als oberster Führer Irans auf seinen Vater",
+      "link": "https://www.tagesschau.de/ausland/asien/modschtaba-chamenei-neuer-fuehrer-iran-100.html",
+      "description": "Iran hat einen neuen obersten Führer: Rund eine Woche nach der Tötung von Ajatollah Ali Chamenei bei Angriffen der USA und Israels ist dessen Sohn Modschtaba als Nachfolger bekanntgegeben worden. Wer ist dieser Mann?",
+      "date": "2026-03-08T22:37:15+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 62.0
+    },
+    {
+      "title": "Belegt ein neues Video US-Angriff auf Mädchenschule in Iran?",
+      "link": "https://www.zdfheute.de/politik/ausland/iran-krieg-usa-angriff-maedchenschule-video-100.html",
+      "description": "Nach dem Angriff auf eine Mädchenschule in Iran verdichten sich Hinweise auf einen US-Schlag. Auf einem neuen Video ist eine Tomahawk-Rakete kurz vor dem Einschlag zu sehen.",
+      "date": "2026-03-09T12:50:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 60.0
+    },
+    {
+      "title": "Kommentar zu Chamenei: Die Hardliner sitzen noch immer im Sattel",
+      "link": "https://www.tagesschau.de/kommentar/modschtaba-chamenei-iran-100.html",
+      "description": "Modschtaba Chamenei steht seinem Vater in puncto Radikalität in nichts nach, meint Lissy Kaufmann. Seine Wahl zeigt daher vor allem, dass die Hardliner auch nach zehn Tagen Krieg noch immer fest im Sattel sitzen.",
+      "date": "2026-03-09T15:42:28+00:00",
+      "source": "Tagesschau",
+      "category": "Bundesinnenpolitik",
+      "is_important": true,
+      "rank_score": 59.5
+    },
+    {
+      "title": "Ölpreis wegen Iran-Krieg erstmals seit Jahren über 100 Dollar",
+      "link": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/oelpreis-iran-krieg-100-dollar-trump-100.html",
+      "description": "Der Iran-Krieg treibt den Ölpreis erstmals seit Beginn des Ukraine-Kriegs wieder über 100 Dollar. US-Präsident Trump verteidigt die steigenden Energiepreise als notwendigen Preis für Sicherheit und Frieden.",
+      "date": "2026-03-09T08:31:42+00:00",
+      "source": "Tagesschau",
+      "category": "Wirtschaft",
+      "is_important": true,
+      "rank_score": 58.5
+    },
+    {
+      "title": "Chamenei-Sohn Modschtaba zum geistlichen Oberhaupt gewählt",
+      "link": "https://www.zdfheute.de/politik/ausland/iran-nachfolger-chamenei-100.html",
+      "description": "Irans Führung hat einen neuen obersten Anführer gewählt. Dabei handelt es sich um Chameneis Sohn Modschtaba. Dieser ist ein konservativer Hardliner.",
+      "date": "2026-03-08T21:22:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 58.5
+    },
+    {
+      "title": "++ Liveblog: Özdemir lehnt Teilung der Amtszeit strikt ab ++",
+      "link": "https://www.tagesschau.de/newsticker/liveblog-landtagswahl-baden-wuerttemberg-2026-104.html",
+      "description": "Grünen-Wahlsieger Özdemir lehnt eine Teilung der Amtszeit mit der CDU ab. Bundeskanzler Merz will den Reformkurs mit der SPD ungeachtet weiterer Wahltermine in diesem Jahr fortsetzen. Alle Entwicklungen im Liveblog.",
+      "date": "2026-03-09T18:44:57+00:00",
+      "source": "Tagesschau",
+      "category": "Bundesinnenpolitik",
+      "is_important": true,
+      "rank_score": 56.0
+    },
+    {
+      "title": "Nahost-Liveblog: ++ Tausende bei Demonstration für Chamenei in Teheran ++",
+      "link": "https://www.tagesschau.de/newsticker/liveblog-iran-krieg-112.html",
+      "description": "In Teheran haben Tausende Anhänger des Regimes für den neuen obersten Führer demonstriert. US-Außenminister Rubio sieht große Fortschritte bei der Zerstörung von Teherans Raketenarsenal. Alle Entwicklungen im Liveblog.",
+      "date": "2026-03-09T19:35:59+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 55.0
+    },
+    {
+      "title": "Aktuelles zum Krieg in der Ukraine",
+      "link": "https://www.zdfheute.de/politik/ausland/ukraine-russland-konflikt-blog-102.html",
+      "description": "Seit Februar 2022 führt Russland einen Angriffskrieg gegen die Ukraine. Kiew hat eine Gegenoffensive gestartet, die Kämpfe dauern an. News und Hintergründe im Ticker.",
+      "date": "2026-03-09T19:03:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 55.0
+    },
+    {
+      "title": "Beschuss aus Iran: Wie verwundbar sind die Golfstaaten?",
+      "link": "https://www.tagesschau.de/ausland/asien/golfstaaten-verteidigung-militaer-100.html",
+      "description": "Iran attackiert die Golfstaaten unaufhörlich, obwohl sich diese nicht an den Angriffen der USA und Israels beteiligen. Wie es um die Verteidigungsfähigkeit in der Region steht - und was die Ukraine damit zu tun hat. Von Sabina Matthay.",
+      "date": "2026-03-09T14:37:57+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 55.0
+    },
+    {
+      "title": "Angriffe lassen nicht nach",
+      "link": "https://www.tagesschau.de/ausland/asien/iran-krieg-angriffe-100.html",
+      "description": "Die Kämpfe in Nahost gehen unvermindert weiter. Israel und Iran attackieren sich gegenseitig, in Israel wurde ein Mann durch Raketensplitter getötet. Teheran setzt auch seine Angriffe auf benachbarte Golfstaaten fort.",
+      "date": "2026-03-09T14:28:27+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 55.0
+    },
+    {
+      "title": "Was erwartet Iran unter der Führung von Chamenei Junior?",
+      "link": "https://www.zdfheute.de/politik/ausland/modschtaba-chamenei-hardliner-fuehrung-iran-ausblick-100.html",
+      "description": "Modschtaba Chamenei übernimmt die Macht in Iran. Der Sohn des getöteten Religionsführers Ali Chamenei gilt als erzkonservativer Hardliner. Was über seinen Kurs bekannt ist.",
+      "date": "2026-03-09T13:35:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 55.0
+    },
+    {
+      "title": "Wer ist Modschtaba Chamenei?",
+      "link": "https://www.zdfheute.de/politik/ausland/iran-modtschaba-chamenei-khamenei-oberster-fuehrer-100.html",
+      "description": "Jahrelang agierte Modschtaba Chamenei im Schatten seines Vaters, nach dessen Tötung ist er nun zu seinem Nachfolger gewählt worden. Wer ist der neue oberste Anführer Irans?",
+      "date": "2026-03-08T22:23:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 55.0
+    },
+    {
+      "title": "Angriff auf den Iran | Die Epstein-Akten",
+      "link": "https://www.zdf.de/video/magazine/frontal-das-magazin-100/frontal-vom-3-maerz-2026-100",
+      "description": "Themen: Angriff auf den Iran | Wie das Iran-Regime seine Bürger überwacht | Baden-Württemberg: Wahlkampf und Wirtschaftskrise | Die Epstein-Akten und die Politik | Vetternwirtschaft in der AfD?",
+      "date": "2026-03-03T20:00:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": true,
+      "rank_score": 52.5
+    },
+    {
+      "title": "Rohöl über 100 Dollar: Was heißt das für Verbraucher?",
+      "link": "https://www.zdfheute.de/wirtschaft/oel-preis-iran-diesel-wachstum-folgen-prognose-100.html",
+      "description": "Der Krieg im Nahen Osten treibt den Ölpreis auf über 100 Dollar. Diesel, Heizkosten, Lebensmittel: Verbraucher und Unternehmen spüren den Schock. Wie geht das weiter?",
+      "date": "2026-03-09T14:08:00+00:00",
+      "source": "ZDF",
+      "category": "Wirtschaft",
+      "is_important": true,
+      "rank_score": 51.5
+    },
+    {
+      "title": "Ölpreis auf Höhenflug - wie geht es weiter?",
+      "link": "https://www.tagesschau.de/wirtschaft/oelpreis-anstieg-100.html",
+      "description": "Der Ölpreis ist durch den Iran-Krieg auf Rekordkurs: Der Transit durch die wichtige Straße von Hormus steht praktisch still - mit drastischen Folgen für den Weltmarkt. Was könnte den Anstieg des Ölpreises stoppen?",
+      "date": "2026-03-09T12:55:38+00:00",
+      "source": "Tagesschau",
+      "category": "Wirtschaft",
+      "is_important": true,
+      "rank_score": 51.5
+    },
+    {
+      "title": "Europa rüstet auf: Deutschland viertgrößter Waffen-Exporteur",
+      "link": "https://www.tagesschau.de/ausland/europa/sipri-bericht-europa-waffenimporte-aufruestung-100.html",
+      "description": "Die Zahl der Waffenimporte nach Europa ist in den vergangenen Jahren kräftig gestiegen. Deutschland hat China als viertgrößten Exporteur überholt. Auslöser ist vor allem der Krieg in der Ukraine.",
+      "date": "2026-03-09T09:11:33+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 51.5
+    },
+    {
+      "title": "Deutschland wird weltweit viertgrößter Waffen-Exporteur",
+      "link": "https://www.zdfheute.de/politik/sipri-waffenhandel-aufruestung-ukraine-iran-krieg-usa-100.html",
+      "description": "Die Kriege in der Ukraine und in Nahost treiben die Nachfrage nach Großwaffen auf ein Rekordniveau. Die USA dominieren den Markt - und das Wettrüsten verschärft sich wohl weiter.",
+      "date": "2026-03-08T23:01:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 51.5
+    },
+    {
+      "title": "Angriff auf Iran: Bedeutung für Deutschland",
+      "link": "https://www.zdfheute.de/video/frontal/angriff-auf-den-iran-regime-100.html",
+      "description": "Der Tod des obersten iranischen Führers Chamenei sowie die Luftangriffe der USA und Israels haben das Machtgefüge in Teheran erschüttert und eine neue Eskalationsstufe im Nahen Osten ausgelöst.",
+      "date": "2026-03-03T20:00:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 51.5
+    },
+    {
+      "title": "Krisengebiet Mittlerer Osten - die Akteure am Persischen Golf",
+      "link": "https://www.zdfheute.de/video/politik-iran-verbuendete-gegner-persischer-golf-100.html",
+      "description": "Iran unterstützt Terrorgruppen und Milizen im Nahen und Mittleren Osten. Viele arabische Staaten arbeiten eng mit den USA zusammen. Wer steht wo in der Krise am Persischen Golf?",
+      "date": "2026-03-09T14:00:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 48.0
+    },
+    {
+      "title": "Ukraine blickt auf härtesten Kriegswinter zurück",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-winterbilanz-100.html",
+      "description": "Mit Hoffnung und Erleichterung sehen viele Menschen in der Ukraine dem beginnenden Frühling entgegen. Hinter ihnen liegt der härteste Winter seit Kriegsbeginn. Die Energieversorgung ist stark beeinträchtigt. Von Niels Bula.",
+      "date": "2026-03-09T04:58:37+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 48.0
+    },
+    {
+      "title": "Wie die CIA versucht, Regime zu stürzen",
+      "link": "https://www.zdfheute.de/politik/ausland/iran-cia-usa-geheimdienst-rolle-100.html",
+      "description": "Der US-Auslandsgeheimdienst CIA versucht immer wieder, unliebsame Regime zu stürzen. Über seine Rolle in Iran gebe es bisher aber nur Spekulationen, sagt ein Experte.",
+      "date": "2026-03-08T18:12:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 48.0
+    },
+    {
+      "title": "Landtagswahl Baden-Württemberg: Grüne im Aufwind, CDU ernüchtert",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/wahl-baden-wuerttemberg-reaktionen-100.html",
+      "description": "Die Ergebnisse der Landtagswahl in Baden-Württemberg beschäftigen auch die Bundesparteien: Die Grünen sehen in Özdemirs Sieg ein positives Zeichen für die ganze Partei, die Bundes-CDU weist Verantwortung für das Ergebnis von sich.",
+      "date": "2026-03-09T08:07:47+00:00",
+      "source": "Tagesschau",
+      "category": "Bundesinnenpolitik",
+      "is_important": true,
+      "rank_score": 46.5
+    },
+    {
+      "title": "Baden-Württemberg: Grüne entscheiden Kopf-an-Kopf-Rennen für sich",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/landtagswahl-baden-wuerttemberg-118.html",
+      "description": "Lange sah es so aus, als würde die CDU der klare Wahlsieger in Baden-Württemberg werden. Doch dann legten die Grünen eine Aufholjagd hin - und landen nun knapp vor der Union. Die AfD feiert ein starkes Ergebnis, die SPD erlebt ein Debakel.",
+      "date": "2026-03-09T01:38:23+00:00",
+      "source": "Tagesschau",
+      "category": "Bundesinnenpolitik",
+      "is_important": true,
+      "rank_score": 46.5
+    },
+    {
+      "title": "Wo war das Rennen besonders knapp - und wo deutlich?",
+      "link": "https://www.zdfheute.de/politik/deutschland/baden-wuerttemberg-wahl-wahlkreise-parteien-hochburgen-gewinne-verluste-100.html",
+      "description": "In manchen Wahlkreisen bekommen die Grünen 50 Prozent, die AfD gewinnt überall hinzu. Und in manchen Wahlkreisen war es richtig knapp: Wo die Parteien ihre Hochburgen hatten.",
+      "date": "2026-03-09T13:58:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": true,
+      "rank_score": 44.5
+    },
+    {
+      "title": "Jüdisches Leben in Deutschland \"noch gefährlicher geworden\"",
+      "link": "https://www.zdfheute.de/politik/deutschland/iran-krieg-juedisches-leben-juden-juedinnen-deutschland-100.html",
+      "description": "Unsicherheit und erhöhte Aufmerksamkeit prägen den Alltag in den jüdischen Gemeinden. Sicherheitskräfte warnen vor Vergeltungsakten wegen des Iran-Kriegs - auch in Deutschland.",
+      "date": "2026-03-09T13:05:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": true,
+      "rank_score": 44.5
+    },
+    {
+      "title": "Wie das Iran-Regime seine Bürger überwacht",
+      "link": "https://www.zdf.de/video/dokus/frontal-die-doku-100/datenleak-iran-ueberwachung-gesichtserkennung-software-100",
+      "description": "Für die brutale Verfolgung seiner Bürger bedient sich Irans Regierung leistungsfähiger Software zur Gesichtserkennung aus Russland. Das offenbart ein Datenleak.",
+      "date": "2026-03-03T17:00:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": true,
+      "rank_score": 44.5
+    },
+    {
+      "title": "Massenüberwachung durch Gesichtserkennung",
+      "link": "https://www.zdfheute.de/video/frontal/videos/politik-inside-frontal-iran-100.html",
+      "description": "Wenn eine einfache Kamera zur Gefahr wird. Gesichtserkennung in Iran. frontal inside blickt hinter die Recherche.",
+      "date": "2026-03-03T17:00:00+00:00",
+      "source": "ZDF",
+      "category": "Andere",
+      "is_important": true,
+      "rank_score": 44.5
+    },
+    {
+      "title": "SPD - eine Partei ohne Vision",
+      "link": "https://www.tagesschau.de/inland/spd-wahl-baden-wuerttemberg-100.html",
+      "description": "5,5 Prozent - auf diesen Wert ist die SPD bei der Landtagswahl in Baden-Württemberg abgestürzt. Die einst große, selbstbewusste Volkspartei wirkt zerrissen und hat keine Vision, meint Jan Zimmermann.",
+      "date": "2026-03-09T16:49:23+00:00",
+      "source": "Tagesschau",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 41.0
+    },
+    {
+      "title": "Sorge um iranische Fußballerinnen",
+      "link": "https://www.zdfheute.de/video/zdfheute-xpress/iranische-frauen-fussball-nationalmanschaft-protest-video-100.html",
+      "description": "Fußballfans sorgen sich, dass das iranische Regime Rache an der Frauen-Fußballnationalmannschaft nehmen könnte. Die Spielerinnen hatten vor einem Spiel weder die Hymne mitgesungen noch salutiert.",
+      "date": "2026-03-09T16:00:00+00:00",
+      "source": "ZDF",
+      "category": "Andere",
+      "is_important": false,
+      "rank_score": 41.0
+    },
+    {
+      "title": "Wissenschaftlerinnen bleiben weniger sichtbar",
+      "link": "https://www.tagesschau.de/wissen/forschung/frauen-wissenschaft-102.html",
+      "description": "Wenn über Wissenschaft berichtet wird, sind es häufig Männer, deren Expertise gefragt ist. Aktuelle Forschung zeigt: Das liegt an der ungleichen Aufmerksamkeit, die sie im Laufe ihrer Karriere erzielen. Von Anke Mautner-Culetto.",
+      "date": "2026-03-09T16:12:35+00:00",
+      "source": "Tagesschau",
+      "category": "Andere",
+      "is_important": false,
+      "rank_score": 38.5
+    },
+    {
+      "title": "Toll!: Krieg ohne Plan",
+      "link": "https://www.zdf.de/video/magazine/frontal-toll-satire-von-doye-und-wiemers-100/satire-toll-irankrieg-102",
+      "description": "Donald Trump erklärt, der Irankrieg werde nicht langweilig. Und warum? Trump ist total gespannt, weil er keinen Plan hat, wie es ausgeht. Das vermuten die frontal-Satiriker Doyé und Wiemers.",
+      "date": "2026-03-03T19:24:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 37.5
+    },
+    {
+      "title": "Schlagzeilen",
+      "link": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html",
+      "description": "Schlagzeilen zu aktuellen Ereignissen - kurze Nachrichten im Ticker",
+      "date": "2026-03-09T19:03:00+00:00",
+      "source": "ZDF",
+      "category": "Andere",
+      "is_important": false,
+      "rank_score": 34.0
+    },
+    {
+      "title": "Studie: Frühjahrsmüdigkeit nicht wissenschaftlich belegt",
+      "link": "https://www.tagesschau.de/wissen/studie-fruehjahrsmuedigkeit-100.html",
+      "description": "Die Sonne kommt raus, die Tage werden länger - und wir werden müde? Das sagt zumindest der Begriff Frühjahrsmüdigkeit aus. Eine neue Untersuchung fand dafür allerdings keine Belege. Auch wenn viele Befragte dachten, sie seien betroffen.",
+      "date": "2026-03-09T14:31:36+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 18.5
+    },
+    {
+      "title": "Özdemir trägt dieselbe Krawatte wie Kretschmann 2011",
+      "link": "https://www.zdfheute.de/video/oezdemir-krawatte-kretschmann-9x16-video-100.html",
+      "description": "Nach seinem Wahlsieg hat Grünen-Spitzenkandidat Cem Özdemir verraten: Seine Krawatte war dieselbe, die der bisherige Ministerpräsident Winfried Kretschmann am Wahlabend 2011 trug.",
+      "date": "2026-03-09T18:30:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "\"Preis für Regierungsbeteiligung hochtreiben\"",
+      "link": "https://www.zdfheute.de/video/heute-nachrichten/sgs-schuck-video-108.html",
+      "description": "Bisher hat die Arbeit in der schwarz-grünen Regierungskoalition gut geklappt. Doch nach der Landtagswahl ist der Ton plötzlich schärfer. Anna-Maria Schuck berichtet.",
+      "date": "2026-03-09T18:00:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Pressekonferenz mit Cem Özdemir nach der Landtagswahl in Baden-Württemberg",
+      "link": "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-wahlnachlese-zu-den-la-a-5181773.html",
+      "description": "Pressekonferenz mit Cem Özdemir (Bündnis 90/Die Grünen) nach der Landtagswahl in Baden Württemberg.",
+      "date": "2026-03-09T14:48:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Wie Özdemirs Erfolg die Grünen verändert",
+      "link": "https://www.zdfheute.de/politik/deutschland/gruene-oezdemir-baden-wuerttemberg-palmer-wahl-100.html",
+      "description": "Die Grünen können noch Wahlen gewinnen. Für die Bundespartei könnte der Erfolg von Cem Özdemir enorme Folgen haben und einen alten Richtungsstreit weiter befeuern.",
+      "date": "2026-03-09T14:23:29+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Wahlnachlese Bündnis 90/Die Grünen",
+      "link": "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5182510",
+      "description": "Pressekonferenz der Grünen mit Parteichefin Franziska Brantner zum Ausgang der Landtagswahl in Baden-Württemberg",
+      "date": "2026-03-09T13:47:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Wahlnachlese der CDU",
+      "link": "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5182508",
+      "description": "Pressekonferenz der CDU zum Ausgang der Landtagswahl in Baden-Württemberg",
+      "date": "2026-03-09T13:35:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Wahlnachlese der AfD",
+      "link": "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5182507",
+      "description": "Pressekonferenz der AfD zum Ausgang der Landtagswahl in Baden-Württemberg u.a. mit dem Spitzenkandidaten Markus Frohnmaierpressekonferenz, afd, landtagswahl, baden-württemberg, frohnmaier, phoenix-neu, phoenix-pk",
+      "date": "2026-03-09T13:29:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Wahlnachlese Die Linke",
+      "link": "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5182499",
+      "description": "Wahlnachlese der Linkspartei zum Ausgang der Landtagswahl in Baden-Württemberg",
+      "date": "2026-03-09T13:06:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Wahlnachlese der FDP",
+      "link": "https://www.phoenix.de/wahlnachlese-a-5181842.html",
+      "description": "Pressekonferenz der FDP zum Ausgang der Wahl in Baden-Württemberg",
+      "date": "2026-03-09T10:54:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "CDU: Statements  zur Wahl in BaWü",
+      "link": "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-zum-ergebnis-der-wahle-a-5174231.html",
+      "description": "Statements von Ines Claus  (CDU, stellvertretende Parteivorsitzende), Andreas Jung (CDU, stellvertretender Parteivorsitzender), Jens Spahn (CDU, Fraktionsvorsitzender) und Boris Rhein (CDU, Ministerpräsident Hessen)",
+      "date": "2026-03-09T10:06:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Özdemir punktet als Person: Drei Gründe für den Wahlsieg",
+      "link": "https://www.zdfheute.de/politik/deutschland/baden-wuerttemberg-landtagswahl-gruene-oezdemir-wahlsieg-100.html",
+      "description": "Cem Özdemir ist bei der Baden-Württemberger Wahl eine erstaunliche Aufholjagd gelungen. Drei Gründe für einen Wahlsieg, den vor Kurzem selbst viele Grüne nicht für möglich hielten.",
+      "date": "2026-03-09T07:25:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Warum die Grünen die CDU im Südwesten noch überholten",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/landtagswahl-baden-wuerttemberg-infratest-100.html",
+      "description": "CDU und Grüne haben sich bei der Landtagswahl in Baden-Württemberg ein Kopf-an-Kopf-Rennen geliefert. Warum wurde es knapp und welche Faktoren entschieden die Wahl? Eine Analyse auf Basis der Daten von infratest dimap. Von Dietmar Telser.",
+      "date": "2026-03-08T23:44:17+00:00",
+      "source": "Tagesschau",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Welche Lehren die Politik aus der Wahl in Baden-Württemberg ziehen kann",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/landtagswahl-baden-wuerttemberg-fuenf-erkenntnisse-100.html",
+      "description": "Die Wahl im Südwesten zeigt: Wahlkämpfe können viel bewegen, auch wenn das Ergebnis scheinbar feststand. Der Kandidatenfaktor ist meist entscheidend - und eine Partei muss besonders in sich gehen. Von C.Emundts.",
+      "date": "2026-03-08T21:59:50+00:00",
+      "source": "Tagesschau",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Kommentar: Entscheidung im Foto-Finish",
+      "link": "https://www.zdfheute.de/politik/deutschland/kommentar-landtagswahl-baden-wuerttemberg-bettina-schausten-100.html",
+      "description": "Der Auftakt zum Superwahljahr 2026 beginnt mit einem engen Rennen. Die Botschaft aus Baden-Württemberg: Die Wählerinnen und Wähler sehnen sich vor allem nach Stabilität.",
+      "date": "2026-03-08T21:43:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "München: Reiter muss mit Verlusten in Stichwahl",
+      "link": "https://www.zdfheute.de/politik/deutschland/muenchen-oberbuergermeister-wahl-stichwahl-reiter-100.html",
+      "description": "In Bayerns größten Städten müssen Stichwahlen über die künftigen Oberbürgermeister entscheiden. Münchens Amtsinhaber Dieter Reiter zeigte sich nach dem ersten Wahlgang enttäuscht.",
+      "date": "2026-03-08T21:33:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Wahl in Baden-Württemberg: Fehlstart für die Kanzlerpartei",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/landtagswahl-baden-wuerttemberg-116.html",
+      "description": "Den Start ins Superwahljahr hatte sich die CDU anders vorgestellt: Lange lag sie in Umfragen vorne, am Ende scheint es in Baden-Württemberg nicht für den Wahlsieg zu reichen. Gründe dafür finden sich auch in Berlin. Von Uli Hauck.",
+      "date": "2026-03-08T21:13:46+00:00",
+      "source": "Tagesschau",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Jan van Aken: \"Es tut ein bischen weh\"",
+      "link": "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5182219",
+      "description": "Interview mit Jan van Aken (Bundesparteivorsitzender Die Linke) am Abend der Landtagswahl in Baden-Württemberg",
+      "date": "2026-03-08T21:07:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Ein Denkzettel - auch für Friedrich Merz und Schwarz-Rot",
+      "link": "https://www.zdfheute.de/politik/landtagswahl-baden-wuerttemberg-cdu-merz-bund-berlin-100.html",
+      "description": "Warum verliert die CDU eine sicher geglaubte Wahl? Das fragen sich nun auch die Strategen in Berlin. Für Schwarz-Rot wird es jetzt nicht einfacher. Was auch an der SPD liegt.",
+      "date": "2026-03-08T20:49:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Christian Dürr: \"Ergebnis ist bitter\"",
+      "link": "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5182195",
+      "description": "FDP-Bundesparteichef Christian Dürr am Abend der Landtagswahl in Baden-Württemberg",
+      "date": "2026-03-08T20:13:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Korte: \"AfD legt nicht einfach nur zu\"",
+      "link": "https://www.zdfheute.de/video/wahlen/karl-rudolf-korte-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Die AfD konnte bei der Landtagswahl in Baden-Württemberg nicht das Ergebnis der letzten Bundestagswahl erzielen. Das zeige, dass die Partei nicht einfach nur zulege, so Politologe Karl-Rudolf Korte.",
+      "date": "2026-03-08T20:10:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Kretschmann: \"Fühlt sich gut an, dann geht man gern\"",
+      "link": "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5182180",
+      "description": "Der bisherige Ministerpräsident von Badem-Württemberg Winfried Kretschmann im Interview am Abend der Landtagswahl",
+      "date": "2026-03-08T19:16:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Özdemir: \"Nicht maximal von der Partei distanziert\"",
+      "link": "https://www.zdfheute.de/video/wahlen/cem-oezdemir-gruene-statement-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Grünen-Spitzenkandidat Cem Özdemir bestreitet, im Wahlkampf zur Landtagswahl auf Distanz zur Bundespartei der Grünen gegangen zu sein.",
+      "date": "2026-03-08T19:12:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Kretschmann: \"So wollen Leute regiert werden\"",
+      "link": "https://www.zdfheute.de/video/wahlen/winfried-kretschmann-gruene-erfolg-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Grünen-Spitzenkandidat Özdemir habe die Wende im Wahlkampf mit seiner persönlichen Ausstrahlung gebracht, so der scheidende Ministerpräsident Winfried Kretschmann.",
+      "date": "2026-03-08T19:02:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Hagel: \"Die Verantwortung liegt bei mir\"",
+      "link": "https://www.zdfheute.de/video/wahlen/manuel-hagel-cdu-konsequenzen-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Die CDU werde den weiteren Verlauf des Abend abwarten, doch die Verantwortung für den Wahlkampf trage er als Spitzenkandidat, so Manuel Hagel.",
+      "date": "2026-03-08T19:00:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Korte: \"Orientierungsautorität für Wähler\"",
+      "link": "https://www.zdfheute.de/video/wahlen/karl-rudolf-korte-persoenlichkeitsfaktor-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Bei der Landtagswahl in Baden-Württemberg sei der Persönlichkeitsfaktor weiter nach vorne gerutscht, so Politologe Karl-Rudolf Korte.",
+      "date": "2026-03-08T18:35:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Chrupalla sieht \"riesen Erfolg\"",
+      "link": "https://www.zdfheute.de/video/wahlen/tino-chrupalla-afd-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Der AfD-Bundessprecher Tino Chrupalla sieht seine Partei als Gewinner der Landtagswahl in Baden-Württemberg.",
+      "date": "2026-03-08T18:23:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Frei: \"Es ist ein enges Rennen\"",
+      "link": "https://www.zdfheute.de/video/wahlen/thorsten-frei-cdu-enttaeuschung-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Kanzleramtschef Thorsten Frei (CDU) hätte sich ein anderes Ergebnis gewünscht. Er habe gehofft, die CDU hätte die Wahl mit deutlichem Vorsprung gewonnen.",
+      "date": "2026-03-08T18:20:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Hagel: Trage Verantwortung für dieses Ergebnis",
+      "link": "https://www.zdfheute.de/video/wahlen/manuel-hagel-cdu-dankesrede-baden-wuerttemberg-wahl-video-100.html",
+      "description": "CDU-Landeschef und Spitzenkandidat Manuel Hagel übernimmt für den Wahlkampf und das Wahlergebnis die Verantwortung, der Abend könne lang werden, sagt er.",
+      "date": "2026-03-08T17:43:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Banaszak: \"Die Grünen können Wahlen gewinnen\"",
+      "link": "https://www.zdfheute.de/video/wahlen/felix-banaszak-freude-gruene--baden-wuerttemberg-wahl-video-100.html",
+      "description": "Geschlossenheit, Klarheit und Bürgernähe hätten Rückenwind für die Grünen erzeugt, sagt Grünen-Co-Vorsitzender Felix Banaszak.",
+      "date": "2026-03-08T17:34:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Wahlkampf und Wirtschaftskrise",
+      "link": "https://www.zdfheute.de/video/frontal/landtagswahl-baden-wuerttemberg-wirtschaftskrise-102.html",
+      "description": "Ein überraschend knappes Rennen zeichnet sich ab: In Baden-Württemberg kämpfen Cem Özdemir (Die Grünen) und Manuel Hagel (CDU) um das Amt des Ministerpräsidenten. Das Top-Thema: die Wirtschaft.",
+      "date": "2026-03-03T20:00:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "Wie ein seltener Blick nach Russland gelingt",
+      "link": "https://www.zdfheute.de/video/frontal/videos/innenansicht-russland-frontal-100.html",
+      "description": "ZDF frontal hat mit 14 Menschen aus Russland über ihre Situation gesprochen. Wie überzeugt man diese Menschen, mit westlichen Medien zu sprechen? Ein Einblick in die Recherche.",
+      "date": "2026-02-25T09:00:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 15
+    },
+    {
+      "title": "CDU attackiert Özdemir: \"Herablassende Arroganz\"",
+      "link": "https://www.zdfheute.de/politik/deutschland/baden-wuerttemberg-ministerpraesident-geteilte-amtszeit-100.html",
+      "description": "In Baden-Württemberg spitzt sich der Machtkampf zu: Die CDU fordert eine geteilte Regierungsführung, die Grünen blocken das ab und Özdemir gerät unter Druck.",
+      "date": "2026-03-09T19:15:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 5
+    },
+    {
+      "title": "tagesschau und NDR starten Faktencheck-Format \"rabbit hole\"",
+      "link": "https://www.tagesschau.de/inland/rabbit-hole-tagesschau-ndr-100.html",
+      "description": "Zwischen viralen Clips, Halbwahrheiten und KI-Fakes wird es immer schwieriger, den Überblick im Netz zu behalten. Das neue tagesschau-Format \"rabbit hole\" hilft, schnell zu erkennen, was stimmt und was nicht.",
+      "date": "2026-03-09T19:06:53+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 5
+    },
+    {
+      "title": "Applaus für den Angeklagten - Prozess in Istanbul gegen İmamoğlu",
+      "link": "https://www.tagesschau.de/ausland/asien/tuerkei-prozesse-opposition-justiz-100.html",
+      "description": "Mehr als 400 Menschen sind angeklagt in dem Istanbuler Mammutverfahren um mutmaßliche Korruption. Prominentester Angeklagter ist der abgesetzte Bürgermeister und Regierungskritiker İmamoğlu. Von Uwe Lueb.",
+      "date": "2026-03-09T17:38:04+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 5
+    },
+    {
+      "title": "Marktbericht: DAX bleibt angezählt",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-oelpreis-konjunktur-inflation-100.html",
+      "description": "Niemand weiß, wann wieder Öl und Gas aus dem Persischen Golf geliefert werden können. Das sorgte für einen neuen Schub bei den Ölpreisen - und für weitere Verluste an den Aktienmärkten.",
+      "date": "2026-03-09T17:14:08+00:00",
+      "source": "Tagesschau",
+      "category": "Wirtschaft",
+      "is_important": false,
+      "rank_score": 5
+    },
+    {
+      "title": "Frauenstreik in Berlin: Hunderte bei Demo für Gleichstellung",
+      "link": "https://www.zdfheute.de/politik/deutschland/frauenstreik-berlin-gleichstellung-100.html",
+      "description": "Über tausend Frauen haben heute in Berlin ihre Arbeit niedergelegt und für mehr Gleichberechtigung demonstriert. Vorbild ist ein Generalstreik der Frauen in Island 1975.",
+      "date": "2026-03-09T18:46:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Das Wichtigste vom Montag",
+      "link": "https://www.zdf.de/video/livestream/paralymics-live-livestream-zeitplan-ergebnisse-sportarten-100/highlights-3-wettkampftag-kompakt-mailand-cortina-9-maerz-2026-100",
+      "description": "So lief der dritte Paralympics-Tag: Forsters Aus, erstes Gold für Russland und eine Eishockey-Pleite. Der Tag kompakt zusammengefasst mit Super-G, Para Eishockey und Rollstuhlcurling.",
+      "date": "2026-03-09T18:21:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Kunstschaffende im Kampf gegen KI",
+      "link": "https://www.zdfheute.de/wirtschaft/suno-ki-musik-gema-urheberrecht-rechtsstreit-100.html",
+      "description": "Mit der KI Suno kann man Musik per Mausklick produzieren. Aber: Die Inhalte seien bekannten Songs teilweise \"zum Verwechseln ähnlich\", sagt die Gema - und zieht vor Gericht.",
+      "date": "2026-03-09T17:17:00+00:00",
+      "source": "ZDF",
+      "category": "Wirtschaft",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Worontschichina: \"Darüber möchte ich nichts sagen\"",
+      "link": "https://www.zdf.de/video/livestream/paralymics-live-livestream-zeitplan-ergebnisse-sportarten-100/warwara-worontschichina-goldmedaille-pws-russische-athleten-100",
+      "description": "Warwara Worontschichina holt für Russland das erste paralympische Gold unter eigener Flagge seit Jahren - samt Hymne bei der Siegerehrung. Das Interview mit ihr und Meinungen zur Situation.",
+      "date": "2026-03-09T16:45:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Teilerfolg vor Bundesgerichtshof: AstraZeneca wird Auskunft geben müssen",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/bgh-klage-astrazeneca-100.html",
+      "description": "Vor deutschen Gerichten sind Klagen gegen Impfstoffhersteller bisher oft gescheitert. Nun hat eine Zahnärztin aus Mainz vor dem Bundesgerichtshof einen Teilerfolg gegen AstraZeneca errungen. Von Max Bauer.",
+      "date": "2026-03-09T16:35:40+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Von der Leyen: EU muss Macht entschiedener einsetzen",
+      "link": "https://www.zdfheute.de/politik/deutschland/von-der-leyen-eu-regelbasiertes-system-100.html",
+      "description": "Europa könne nicht länger ein Hüter der alten Weltordnung sein, erklärte EU-Kommissionspräsidentin Ursula von der Leyen. Diese sei Vergangenheit und werde nicht zurückkommen.",
+      "date": "2026-03-09T16:22:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Ziemlich weit unten",
+      "link": "https://www.zdfheute.de/politik/landtagswahl-baden-wuerttemberg-spd-analyse-ergebnis-berlin-klingbeil-100.html",
+      "description": "5,5 Prozent. Das hat es so für die SPD noch nie gegeben. Die Partei weiß nicht, wie sie wieder aus der Krise kommt. Sie sucht Wählerinnen und Wähler. Und sich selbst.",
+      "date": "2026-03-09T16:00:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Prozess gegen Imamoglu in Istanbul startet chaotisch",
+      "link": "https://www.zdfheute.de/politik/ausland/erdogan-gegner-imamoglu-prozess-beginn-istanbul-100.html",
+      "description": "In Istanbul hat der Prozess gegen den ehemaligen Istanbuler Bürgermeister Imamoglu begonnen. Kritiker sehen den Prozess gegen den Oppositionellen als politisch motiviert.",
+      "date": "2026-03-09T15:11:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Schüsse auf Rihannas Villa in Los Angeles",
+      "link": "https://www.zdfheute.de/video/hallo-deutschland/rihanna-villa-schuesse-100.html",
+      "description": "In Beverly Hills wurden Schüsse auf das Anwesen von Rihanna abgefeuert, während sich die Sängerin darin aufhielt. Vor Ort konnte eine tatverdächtige Frau festgenommen werden.",
+      "date": "2026-03-09T15:10:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Terrorverdacht nach Explosion vor Synagoge in Lüttich",
+      "link": "https://www.tagesschau.de/ausland/europa/luettich-anschlag-synagoge-100.html",
+      "description": "Am frühen Morgen ist es im belgischen Lüttich zu einer Explosion vor einer Synagoge gekommen. Die Bundesstaatsanwaltschaft prüft einen Terrorverdacht, führende Politiker sprechen von Antisemitismus.",
+      "date": "2026-03-09T14:42:13+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Corona-Impfung: Teilerfolg für Klage gegen Astrazeneca",
+      "link": "https://www.zdfheute.de/panorama/astrazeneca-impfstoff-corona-klage-bgh-100.html",
+      "description": "Eine Frau macht den Corona-Impfstoff von Astrazeneca für einen Hörsturz verantwortlich. Nun hat der BGH entschieden, dass der Fall noch einmal neu verhandelt werden muss.",
+      "date": "2026-03-09T14:28:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "ORF-Intendant Weißmann tritt zurück",
+      "link": "https://www.tagesschau.de/ausland/europa/oesterreich-ruecktritt-orf-intendant-100.html",
+      "description": "Der Indendant des österreichischen öffentlich-rechtlichen Rundfunks ist mit sofortiger Wirkung zurückgetreten. Hintergrund sind Vorwürfe der sexuellen Belästigung. Weißmann bestreitet jegliches Fehlverhalten.",
+      "date": "2026-03-09T13:07:39+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Gegen den Markttrend: Ölaktien im Aufwind",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-oelpreis-oelaktien-100.html",
+      "description": "Steigende Ölpreise haben den Abwärtstrend am deutschen Aktienmarkt beschleunigt. Eine Branche profitiert jedoch direkt von der Lage am Persischen Golf: Ölaktien haben Hochkonjunktur. Von Detlev Landmesser.",
+      "date": "2026-03-09T12:31:46+00:00",
+      "source": "Tagesschau",
+      "category": "Wirtschaft",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Mehr EU-Stärke durch Eurobonds?",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/eu-eurobonds-spanien-100.html",
+      "description": "Die Finanzminister der Eurozone diskutieren heute über die wirtschaftlichen Entwicklungen in der EU. Um als Wirtschaftsraum bedeutender zu werden, kommt aus Spanien ein Vorschlag für einen riesigen EU-Anleihemarkt.",
+      "date": "2026-03-09T12:14:37+00:00",
+      "source": "Tagesschau",
+      "category": "Wirtschaft",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "\"Gen Z\"-Rapper wird Nepals Regierungschef: Wer ist Balendra Shah?",
+      "link": "https://www.tagesschau.de/ausland/asien/nepal-wahl-102.html",
+      "description": "Nepals neuer Regierungschef Balendra Shah soll das Land reformieren. Der Rapper inszeniert sich als Rebell gegen die alten Machteliten - und gilt als Hoffnungsträger der jungen Generation. Wer ist \"Balen\"? Von Peter Hornung.",
+      "date": "2026-03-09T12:04:19+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "\"Cap San Diego\" fährt zum Check",
+      "link": "https://www.zdfheute.de/video/zdfheute-xpress/cap-san-diego-verlaesst-hamburg-instandhaltung-video-100.html",
+      "description": "Die \"Cap San Diego\" muss ihren Stammplatz im Hamburger Hafen bis Ende März verlassen. Für das weltgrößte betriebsfähige Museumsfrachtschiff geht es wegen Instandhaltungsarbeiten nach Bremerhaven.",
+      "date": "2026-03-09T11:58:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Glasgower Bahnhof wegen Großbrand geschlossen",
+      "link": "https://www.tagesschau.de/ausland/europa/grossbritannien-glasgow-bahnhof-grossbrand-100.html",
+      "description": "Ein Großbrand in einem Nebengebäude des Glasgower Bahnhofs hat zur Schließung des größten Bahnhofs in Schottland geführt. Die Löscharbeiten dauern an. Wann der Bahnverkehr wieder aufgenommen werden kann, ist unklar.",
+      "date": "2026-03-09T11:39:52+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Maskenkäufe: Verfahren gegen Jens Spahn eingestellt",
+      "link": "https://www.zdfheute.de/politik/deutschland/masken-kauf-jens-spahn-cdu-corona-verfahren-100.html",
+      "description": "Es gebe keine \"zureichenden Anhaltspunkte für das Vorliegen einer Straftat\": Das Verfahren gegen Jens Spahn wegen Maskenkäufen während der Corona-Pandemie ist eingestellt worden.",
+      "date": "2026-03-09T11:23:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Welt-Barbie-Tag: Die größte Sammlung der Welt",
+      "link": "https://www.zdfheute.de/video/zdf-mittagsmagazin/videos/welt-barbie-tag-100.html",
+      "description": "Heute ist Welt-Barbie-Tag. Für Bettina Dorfmann aus Düsseldorf ein ganz besonderer Anlass: Sie besitzt die größte Barbie-Sammlung der Welt.",
+      "date": "2026-03-09T11:00:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Expedition in neu entdeckter Tropfsteinhöhle",
+      "link": "https://www.zdfheute.de/video/zdf-mittagsmagazin/videos/hoehle-gefunden-expedition-100.html",
+      "description": "„Das ist die absolute Sensation – wie ein Wunder“, so die Einschätzung eines Höhlenforschers zu der Höhle, die unter einem Tennisplatz in Ennepetal gefunden wurde.",
+      "date": "2026-03-09T11:00:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Verfahren wegen Maskenkäufen gegen Spahn eingestellt",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/spahn-verfahren-masken-100.html",
+      "description": "Die Maskenbeschaffung in der Corona-Zeit sorgt seit Jahren für Kritik. Im Fokus: das Gesundheitsministerium unter Spahn. Nun ist das Verfahren gegen den heutigen Unionsfraktionschef eingestellt worden.",
+      "date": "2026-03-09T10:40:58+00:00",
+      "source": "Tagesschau",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Deutsche Industrieaufträge brechen im Januar überraschend ein",
+      "link": "https://www.tagesschau.de/wirtschaft/konjunktur/deutschland-industrie-auftraege-einbruch-100.html",
+      "description": "Die deutsche Industrie ist schwach ins Jahr gestartet: Die Aufträge sanken im Januar um 11,1 Prozent - deutlich stärker als erwartet. Ökonomen sprechen von einem Schock, sehen aber auch Sondereffekte durch Großaufträge.",
+      "date": "2026-03-09T10:06:58+00:00",
+      "source": "Tagesschau",
+      "category": "Wirtschaft",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Deutsche Unternehmen drosseln Produktion überraschend",
+      "link": "https://www.zdfheute.de/wirtschaft/produktion-auftragsminus-deutsche-industrie-januar-100.html",
+      "description": "Die deutsche Industrieproduktion ist - entgegen der Erwartungen - zu Jahresbeginn gesunken. Und auch die Aufträge brachen im Januar stark ein, wie das Statistische Bundesamt.",
+      "date": "2026-03-09T09:47:00+00:00",
+      "source": "ZDF",
+      "category": "Wirtschaft",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Mammutprozess gegen abgesetzten Istanbuler Oberbürgermeister İmamoğlu",
+      "link": "https://www.tagesschau.de/ausland/asien/imamoglu-prozess-tuerkei-100.html",
+      "description": "In der Türkei hat der Prozess gegen den abgesetzten Istanbuler Oberbürgermeister İmamoğlu begonnen. Es geht um ein angebliches Korruptionsnetz. Viele Türken halten den Prozess gegen Erdoğans Rivalen für politisch motiviert. Von Uwe Lueb.",
+      "date": "2026-03-09T09:22:33+00:00",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Erste Goldmedaille für Russland",
+      "link": "https://www.zdfheute.de/sport/paralympics-2026-winterspiele-news-liveticker-108.html",
+      "description": "Alle Highlights vom dritten Tag der Spiele. Die News im Paralympics-Blog.",
+      "date": "2026-03-09T09:21:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "2. Liga: VAR-Sabotage bei Münster gegen Berlin",
+      "link": "https://www.zdfheute.de/sport/fussball-zweite-liga-muenster-hertha-var-sabotage-100.html",
+      "description": "Kurioser Vorfall beim 2:1-Sieg der Hertha bei Preußen Münster: Als Schiri Felix Bickel auf dem Monitor am Spielfeldrand ein Foul  überprüfen wollte blieb der Bildschirm schwarz.",
+      "date": "2026-03-09T08:52:35+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Gabler Group geht in Frankfurt an die Börse",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/gabler-group-boersengang-100.html",
+      "description": "Die Gabler Group geht heute an die Börse. Damit sind künftig sechs Rüstungsunternehmen in Deutschland börsennotiert. Und weitere stehen bereit. Von Antje Erhard.",
+      "date": "2026-03-09T07:33:56+00:00",
+      "source": "Tagesschau",
+      "category": "Wirtschaft",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Klage gegen AstraZeneca: Wann Impfstoffhersteller haften",
+      "link": "https://www.tagesschau.de/wirtschaft/klage-astrazeneca-100.html",
+      "description": "Vor dem Bundesgerichtshof geht es heute um mögliche Ansprüche nach einer Corona-Impfung. Eine Klägerin verlangt Schadensersatz und Auskunft vom Hersteller AstraZeneca.",
+      "date": "2026-03-09T06:48:32+00:00",
+      "source": "Tagesschau",
+      "category": "Wirtschaft",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Was am Montag wichtig ist",
+      "link": "https://www.zdfheute.de/sport/paralympics-2026-montag-090326-entscheidungen-ueberblick-100.html",
+      "description": "Die Paralympics-Highlights aus deutscher Sicht: Das Eishockey Team spielt gegen die USA. Um Medaillen kämpfen die Skirennläuferinnen Anna-Lena Forster und Anna-Maria Rieder.",
+      "date": "2026-03-09T05:03:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Hausverkauf, Umwandlung, Eigenbedarf: Was Mieter wissen sollten",
+      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/eigenbedarfskuendingungen-mietrecht-100.html",
+      "description": "Wenn Mietshäuser verkauft und in Eigentum umgewandelt werden, entstehen für Mieterinnen und Mieter neue rechtliche Fragen. Welche Regelungen gelten - und welche Rechte bestehen. Von Andrea Wieland.",
+      "date": "2026-03-09T05:00:19+00:00",
+      "source": "Tagesschau",
+      "category": "Wirtschaft",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Wie die Wählenden in Baden-Württemberg wanderten",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/waehlerwanderung-landtagswahl-baden-wuerttemberg-100.html",
+      "description": "Woher kommen die Zugewinne von CDU und AfD? An wen verloren SPD, FDP und Grüne Stimmen? Und welche Partei mobilisierten am stärksten frühere Nichtwähler? Die Grafiken zur Wählerwanderung.",
+      "date": "2026-03-09T02:02:09+00:00",
+      "source": "Tagesschau",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "HSV versetzt Wolfsburg den nächsten Tiefschlag",
+      "link": "https://www.zdfheute.de/sport/fussball-bundesliga/video/vfl-wolfsburg-hamburger-sv-saison-2025-26-100.html",
+      "description": "Der VfL Wolfsburg taumelt weiter Richtung 2. Liga. Die 1:2-Heimniederlage gegen den Hamburger SV bedeutete das Aus für Trainer Daniel Bauer, Dieter Hecking übernimmt.",
+      "date": "2026-03-08T23:00:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Freiburg und Leverkusen bieten Tor-Spektakel",
+      "link": "https://www.zdfheute.de/sport/fussball-bundesliga/video/sc-freiburg-bayer-04-leverkusen-saison-2025-26-100.html",
+      "description": "Sechs Tore, viele weitere Chancen und ein Vereinsrekord: Das 3:3-Unentschieden zwischen dem SC Freiburg und Bayer Leverkusen hatte jede Menge zu bieten.",
+      "date": "2026-03-08T23:00:00+00:00",
+      "source": "ZDF",
+      "category": "Landespolitik von ba-Wü",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Defensive dominiert bei St. Pauli gegen Frankfurt",
+      "link": "https://www.zdfheute.de/sport/fussball-bundesliga/video/fc-st-pauli-eintracht-frankfurt-saison-2025-26-100.html",
+      "description": "Ein 0:0, mit dem beide Teams leben können: Der FC St. Pauli sammelt einen Punkt gegen den Abstieg, Eintracht Frankfurt beweist die neu gefundene defensive Stabilität.",
+      "date": "2026-03-08T23:00:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Hin und Her bei Mainz gegen Stuttgart",
+      "link": "https://www.zdfheute.de/sport/fussball-bundesliga/video/fsv-mainz-05-vfb-stuttgart-saison-2025-26-100.html",
+      "description": "Achterbahnfahrt der Gefühle mit versöhnlichem Ausgang: Mainz 05 und der VfB Stuttgart bieten gute Unterhaltung und trennen sich letztlich leistungsgerecht mit 2:2.",
+      "date": "2026-03-08T23:00:00+00:00",
+      "source": "ZDF",
+      "category": "Landespolitik von ba-Wü",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Baden-Württemberg: AfD verdoppelt ihr Ergebnis beinahe",
+      "link": "https://www.tagesschau.de/inland/landtagswahl-baden-wuerttemberg-afd-102.html",
+      "description": "Geht es nach den Gewinnen und Verlusten bei den Stimmanteilen ist die AfD die klare Siegerin der Landtagswahl. Die Partei feiert ihren Erfolg, auch wenn es wohl weiterhin nichts wird mit einer Regierungsbeteiligung.",
+      "date": "2026-03-08T21:08:07+00:00",
       "source": "Tagesschau",
       "category": "Bundesinnenpolitik",
       "is_important": true
+    },
+    {
+      "title": "Frohnmaier: \"Land will konservative Mehrheit\"",
+      "link": "https://www.zdfheute.de/video/wahlen/markus-frohnmaier-afd-wahlkampf-baden-wuerttemberg-wahl-video-100.html",
+      "description": "AfD-Spitzenkandidat Markus Frohnmaier spricht nach ersten Hochrechnungen von einer konservativen Mehrheit für Baden-Württemberg.",
+      "date": "2026-03-08T18:41:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Zehntausende demonstrieren für Rechte von Frauen",
+      "link": "https://www.zdfheute.de/politik/deutschland/frauentag-demonstrationen-demo-frauen-100.html",
+      "description": "In Berlin ist der 8. März ein Feiertag: Zehntausende nutzten den Internationalen Frauentag und sind in der Hauptstadt für Gleichberechtigung auf die Straße gegangen.",
+      "date": "2026-03-08T18:33:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Streit über Ehegattensplitting spaltet Koalition",
+      "link": "https://www.zdfheute.de/politik/deutschland/ehegatten-splitting-koalition-debatte-100.html",
+      "description": "Reformpläne für das Ehegattensplitting sorgen wieder für politischen Streit. SPD und Teile der CDU zeigen sich offen, CSU und andere Unionspolitiker lehnen Änderungen ab.",
+      "date": "2026-03-08T18:29:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Klingbeil: \"Total bitterer Abend\"",
+      "link": "https://www.zdfheute.de/video/wahlen/lars-klingbeil-spd-niederlage-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Die SPD habe die richtigen Themen angesprochen, aber die Polarisierung habe überwogen, sagt SPD-Chef Lars Klingbeil.",
+      "date": "2026-03-08T18:24:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Van Aken: \"Historisches Ergebnis\"",
+      "link": "https://www.zdfheute.de/video/wahlen/jan-van-aken-linke-historisch-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Die Linke hat in Baden-Württemberg ein historisches Ergebnis geschafft, sagt der Co-Vorsitzende der Partei, Jan van Aken.",
+      "date": "2026-03-08T18:16:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Weidel: \"Größter Zuwachs aller Parteien\"",
+      "link": "https://www.zdfheute.de/video/wahlen/alice-weidel-afd-wirtschaft-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Spitzenkandidat Markus Frohnmaier sei in die USA gereist, um den Wirtschaftsstandort zu stärken, erklärt AfD-Parteivorsitzende Alice Weidel.",
+      "date": "2026-03-08T18:11:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Özdemir: \"Fulminante Aufholjagd\" der Grünen",
+      "link": "https://www.zdfheute.de/video/wahlen/cem-oezdemir-gruene-reaktion-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Grünen-Spitzenkandidat Cem Özdemir spricht von einer \"fulminanten Aufholjagd\", nach den ersten Zahlen könne man sich wirklich freuen. Es gehe um das Landeswohl, nicht um Parteiinteressen.",
+      "date": "2026-03-08T18:05:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Rülke: \"Für die Bundespartei ein Rückschlag\"",
+      "link": "https://www.zdfheute.de/video/wahlen/hans-ulrich-ruelke-fdp-rueckschlag-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Sollte die FDP aus dem Landtag in Baden-Württemberg ausscheiden, werde er die Verantwortung dafür übernehmen, so FDP-Spitzenkandidat Hans-Ulrich Rülke.",
+      "date": "2026-03-08T17:53:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Brantner: \"Gutes Signal an die Republik\"",
+      "link": "https://www.zdfheute.de/video/wahlen/franziska-brantner-gruene-mut-baden-wuerttemberg-wahl-video-100.html",
+      "description": "Wähler hätten sich für Zuversicht und Mut entschieden und nicht für den Weg zurück in die Vergangenheit, sagt Grünen-Vorsitzende Franziska Brantner.",
+      "date": "2026-03-08T17:46:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Klüssendorf: \"Bitteres Ergebnis\"",
+      "link": "https://www.zdfheute.de/video/wahlen/tim-kluessendorf-spd-polarisierung-baden-wuerttemberg-wahl-video-100.html",
+      "description": "In der Polarisierung auf die Kandidatenfrage zwischen Grünen und CDU sei die SPD unter die Räder gekommen, sagt SPD-Generalsekretär Tim Klüssendorf.",
+      "date": "2026-03-08T17:44:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Top-Leistung: Deutsche Handballerinnen für EM qualifiziert",
+      "link": "https://www.zdfheute.de/sport/handball-frauen-em-2026-qualifikation-100.html",
+      "description": "Im Spaziergang zur EM: Die deutschen Handball-Frauen schlagen Slowenien klar und sind damit vorzeitig für die Endrunde im Dezember 2026 qualifiziert.",
+      "date": "2026-03-08T16:37:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Trump ruft zu Militäreinsätzen gegen Drogenkartelle auf",
+      "link": "https://www.zdfheute.de/politik/ausland/trump-lateinamerika-armee-drogenkartelle-100.html",
+      "description": "Donald Trump hat Drogenkartellen den Kampf angesagt - und ruft auch die Staaten Lateinamerikas auf, mit militärischer Stärke gegen die Kartelle vorzugehen.",
+      "date": "2026-03-08T12:38:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Klinik in Wriezen: Was für Ärzte und Pfleger im Alltag zählt",
+      "link": "https://www.zdfheute.de/wirtschaft/krankenhausreform-fachkraeftemangel-landklinik-wriezen-brandenburg-100.html",
+      "description": "Personalmangel, knappe Finanzen und die Krankenhausreform setzen kleine Kliniken unter Druck. Die Landklinik Wriezen zeigt, wie angespannt die Versorgung im ländlichen Raum ist.",
+      "date": "2026-03-08T09:20:00+00:00",
+      "source": "ZDF",
+      "category": "Wirtschaft",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Wie der Plattenbau Ost und West geprägt hat",
+      "link": "https://www.zdfheute.de/video/heute-nachrichten/dresden-ausstellung-plattenbauten-video-100.html",
+      "description": "Einst Prestigeprojekt der DDR, heute kontrovers diskutiert: Plattenbauwohnungen. Eine Ausstellung in Dresden zeigt, wie sehr der Plattenbau die Menschen in Ost und West geprägt hat.",
+      "date": "2026-03-07T18:00:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Die Epstein-Akten und die Politik",
+      "link": "https://www.zdfheute.de/video/frontal/epstein-akten-und-politik-deutschland-100.html",
+      "description": "Seit Monaten recherchiert \"frontal\" gemeinsam mit Partnern zu Jeffrey Epstein. Das Gesamtbild entsteht aus vielen Geschichten - etwa die der Deutschen Bank oder die eines deutschen KI-Forschers.",
+      "date": "2026-03-03T20:00:00+00:00",
+      "source": "ZDF",
+      "category": "Ausland (DE)",
+      "is_important": false,
+      "rank_score": 0
+    },
+    {
+      "title": "Vetternwirtschaft in der AfD?",
+      "link": "https://www.zdf.de/video/dokus/frontal-die-doku-100/afd-scheinbeschaeftigung-vetternwirtschaft-100",
+      "description": "Die AfD wettert gegen Vetternwirtschaft, doch intern brodelt es: In Brandbriefen ist sogar von einem \"korrupten System\", \"mafiösen Strukturen\" und einer \"mutmaßlichen Veruntreuung\" die Rede.",
+      "date": "2026-03-03T20:00:00+00:00",
+      "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": false,
+      "rank_score": -40
     }
-  ]
+  ],
+  "summaries": {
+    "2026-03-09": "### Tagesrückblick\n\n#### **Einleitung**\nHeute standen internationale Spannungen, inländische politische Debatten und gesellschaftliche Themen im Mittelpunkt der Nachrichten. Hier die wichtigsten Entwicklungen des Tages.\n\n#### **Ausland**\n- **NATO-Abwehrsystem**: Eine weitere Rakete aus dem **Iran** wurde über der **Türkei** abgefangen. Die Spannungen in der Region bleiben hoch.\n- **Nahost-Konflikt**: Tausende demonstrierten in **Teheran** für **Ayatollah Chamenei**. Der Konflikt im Nahen Osten bleibt ein zentrales Thema.\n- **Iran-Krieg**: Aktuelle Entwicklungen werden in einem **Liveblog** verfolgt.\n- **Türkei**: Im Prozess gegen **Ekrem İmamoğlu** gab es Applaus für den Angeklagten. Die politische Lage in der Türkei bleibt angespannt.\n\n#### **Inland**\n- **CDU attackiert Özdemir**: Die CDU warf **Bundesaußenminister Annalena Baerbock** und **Bündnis 90/Die Grünen** \"herablassende Arroganz\" vor.\n- **Özdemir und Kretschmann**: **Bundeslandwirtschaftsminister Cem Özdemir** trug dieselbe Krawatte wie **Winfried Kretschmann** 2011. Die Medien griffen das Thema auf.\n- **Frauenstreik in Berlin**: Hunderte demonstrierten für **Gleichstellung**.\n- **Kunstschaffende gegen KI**: Künstlerinnen und Künstler wehren sich gegen die Nutzung von **Künstlicher Intelligenz** in der Kunst.\n\n#### **Wirtschaft**\n- **Marktbericht**: Der **DAX** bleibt unter Druck. Die wirtschaftlichen Aussichten bleiben unsicher.\n\n#### **Medien**\n- **tagesschau und NDR**: Starten neues **Faktencheck-Format \"rabbit hole\"**.\n- **Liveblog zur Wahl**: Aktuelle Ergebnisse und Reaktionen werden verfolgt.\n\n#### **Zusammenfassung**\n- **Preis für Regierungsbeteiligung**: Die Debatte über die **Regierungsbeteiligung** der Grünen bleibt kontrovers.\n- **Das Wichtigste vom Montag**: Ein Rückblick auf die wichtigsten Nachrichten des Tages.\n\nDies war ein Überblick über die wichtigsten Ereignisse des Tages. Bleiben Sie informiert.",
+    "2026-03-08": "### Tagesrückblick\n\n#### **Einleitung**\nHeute stand die Politik im In- und Ausland im Mittelpunkt der Nachrichten. Besonders die **Wahl in Baden-Württemberg** und die **neue Führung im Iran** sorgten für Schlagzeilen. Auch der **Sport** bot mit spannenden Fußballspielen und überraschenden Ergebnissen Gesprächsstoff.\n\n#### **Inland**\n- **Grüne überholen CDU im Südwesten**: Die Grünen haben die CDU bei der Wahl in **Baden-Württemberg** überholt. Die **Kanzlerpartei** erlebte einen **Fehlstart**, während die Grünen mit einem **Foto-Finish** triumphierten. **Jan van Aken** kommentierte: *\"Es tut ein bisschen weh.\"*\n- **Waffenexporte**: Deutschland ist weltweit **viertgrößter Waffenexporteur** geworden. Diese Entwicklung wirft Fragen zur deutschen Außenpolitik auf.\n- **Kommunalwahlen**: In **München** muss ein Reiter mit Verlusten in die Stichwahl.\n\n#### **Ausland**\n- **Neue Führung im Iran**: **Modschtaba Chamenei**, Sohn des verstorbenen **Ali Chamenei**, wurde zum **geistlichen Oberhaupt** gewählt. Die Entscheidung fällt in eine Zeit der **Spannungen** im Iran.\n- **Iran-Krieg**: Die Wahl von **Modschtaba Chamenei** wird als **Schritt zur Stabilisierung** gesehen, doch die internationale Gemeinschaft beobachtet die Entwicklung genau.\n\n#### **Sport**\n- **Bundesliga**:\n  - **HSV** versetzte **Wolfsburg** den nächsten Tiefschlag.\n  - **Freiburg** und **Leverkusen** boten ein **Tor-Spektakel**.\n  - **St. Pauli** dominierte defensiv gegen **Frankfurt**.\n  - **Mainz** und **Stuttgart** lieferten sich ein **Hin und Her**.\n\nEin Tag voller politischer und sportlicher Höhepunkte, der die Aufmerksamkeit der Öffentlichkeit auf sich zog.",
+    "2026-03-07": "### **Tagesrückblick: 10. Oktober 2023**\n\n#### **Einleitung**\nHeute stand die Architekturgeschichte im Fokus der Nachrichten. Ein zentrales Thema war die prägende Rolle des **Plattenbaus** in Ost und West. Zudem gab es wichtige Entwicklungen in der internationalen Politik und Wirtschaft.\n\n#### **Inland**\n- **Plattenbau: Ein Symbol der Moderne**\n  - Der **Plattenbau** hat sowohl in Ost- als auch in Westdeutschland die Stadtbilder geprägt.\n  - In der **DDR** war er ein Symbol des sozialen Wohnungsbaus, während er im Westen oft als schnelle Lösung für den Wohnungsmangel diente.\n  - Experten diskutieren über die Zukunft dieser Bauweise und deren Sanierung.\n\n#### **Ausland**\n- **Internationale Spannungen**\n  - Die **UNO** warnt vor einer Eskalation im Nahost-Konflikt.\n  - **Russland** und **Ukraine** setzen ihre Verhandlungen fort, während die humanitäre Lage kritisch bleibt.\n\n#### **Wirtschaft**\n- **Aktienmärkte im Fokus**\n  - Die **Dax** schließt leicht im Plus, während der **Dow Jones** aufgrund von Zinsängsten schwächelt.\n  - Analysten prognostizieren eine stabile, aber vorsichtige Entwicklung für die kommenden Wochen.\n\n#### **Kultur**\n- **Architektur im Wandel**\n  - Eine neue Ausstellung in **Berlin** widmet sich der Geschichte und Zukunft des **Plattenbaus**.\n  - Experten und Architekten diskutieren über moderne Lösungen für den Erhalt dieser Bauweise.\n\n#### **Zusammenfassung**\nDer Tag war geprägt von einer Mischung aus historischen Reflexionen und aktuellen politischen sowie wirtschaftlichen Entwicklungen. Der **Plattenbau** bleibt ein zentrales Thema, das die gesellschaftliche und architektonische Debatte anregt.",
+    "2026-03-03": "### Tagesrückblick\n\n#### Einleitung\nHeute standen internationale Spannungen, innenpolitische Entwicklungen und kontroverse Themen im Fokus der Nachrichten. Hier die wichtigsten Ereignisse des Tages.\n\n#### **Inland**\n- **Wahlkampf und Wirtschaftskrise**:\n  - Die anhaltende **Wirtschaftskrise** dominiert den **Wahlkampf**. Parteien präsentieren unterschiedliche Lösungsansätze.\n- **Vetternwirtschaft in der AfD?**:\n  - Vorwürfe der **Vetternwirtschaft** innerhalb der **AfD** sorgen für Diskussionen. Interne Untersuchungen laufen.\n- **Massenüberwachung durch Gesichtserkennung**:\n  - Kritiker warnen vor **Massenüberwachung** durch **Gesichtserkennung**. Datenschützer fordern strengere Regulierung.\n\n#### **Ausland**\n- **Angriff auf den Iran**:\n  - Ein **Angriff auf den Iran** erschüttert die internationale Gemeinschaft. Die **Bedeutung für Deutschland** wird diskutiert.\n  - Das **Iran-Regime** überwacht seine Bürger intensiv. Menschenrechtsorganisationen zeigen sich besorgt.\n- **Die Epstein-Akten und die Politik**:\n  - Neue Enthüllungen aus den **Epstein-Akten** werfen Fragen zur **Politik** auf. Internationale Reaktionen folgen.\n\n#### **Kritik**\n- **Toll!: Krieg ohne Plan**:\n  - Kritik an der **Toll!**-Initiative: Experten bemängeln einen **Krieg ohne Plan** und fordern klare Strategien.\n\n#### Fazit\nDer Tag war geprägt von **internationalen Spannungen**, **innenpolitischen Kontroversen** und **technologischen Herausforderungen**. Die Entwicklungen bleiben eng zu verfolgen.",
+    "2026-02-25": "### Tagesrückblick\n\n#### Einleitung\nHeute stand die internationale Politik im Mittelpunkt der Nachrichten. Besonders die Beziehungen zu **Russland** sorgten für Schlagzeilen. Hier die wichtigsten Entwicklungen des Tages.\n\n#### Inland\n- Keine bedeutenden inländischen Nachrichten heute.\n\n#### Ausland\n- **Russland**: Ein seltener Blick in das Land wurde ermöglicht. Die Berichterstattung zeigt, wie schwierig es ist, unabhängige Informationen aus **Russland** zu erhalten. Die **Medienfreiheit** bleibt stark eingeschränkt, und die Berichte werfen Fragen über die **Transparenz** der russischen Regierung auf.\n\n#### Wirtschaft\n- Keine bedeutenden wirtschaftlichen Nachrichten heute.\n\n#### Gesellschaft\n- Keine bedeutenden gesellschaftlichen Nachrichten heute.\n\n#### Wissenschaft & Technik\n- Keine bedeutenden Nachrichten aus Wissenschaft und Technik heute.\n\n#### Kultur & Sport\n- Keine bedeutenden Nachrichten aus Kultur und Sport heute.\n\n#### Fazit\nDer Tag war geprägt von der Berichterstattung über **Russland**. Die Herausforderungen, unabhängige Informationen zu erhalten, bleiben bestehen und unterstreichen die Bedeutung der **Medienfreiheit** in einer demokratischen Gesellschaft.",
+    "2026-W11": "### Wochenrückblick: Politische Spannungen und internationale Krisen\n\n#### **Inland**\n- **CDU vs. Özdemir**: Die CDU kritisierte **Cem Özdemir** scharf für seine **\"herablassende Arroganz\"** und seine Ablehnung einer **Teilung der Amtszeit**.\n- **Landtagswahl in Baden-Württemberg**: Özdemir lehnte eine **Teilung der Amtszeit** strikt ab. Zudem trug er dieselbe Krawatte wie **Winfried Kretschmann** 2011.\n- **SPD-Kritik**: Die SPD wird als **\"Partei ohne Vision\"** bezeichnet. Gleichzeitig wird diskutiert, wie der **Preis für Regierungsbeteiligung hochgetrieben** werden soll.\n- **Kunst und KI**: Kunstschaffende wehren sich gegen die **Ausbreitung von KI** in der Kunstszene.\n- **Marktbericht**: Der **DAX bleibt angezählt**, was auf anhaltende wirtschaftliche Unsicherheiten hindeutet.\n- **Frauenstreik in Berlin**: Hunderte demonstrierten für **Gleichstellung** und gegen Diskriminierung.\n\n#### **Ausland**\n- **NATO-Abwehrsystem**: Eine Rakete aus dem **Iran** wurde über der **Türkei** abgefangen.\n- **Iran-Krieg**: Die Spannungen im Nahen Osten bleiben hoch. Tausende demonstrierten in **Teheran** für **Ajatollah Chamenei**.\n- **Ukraine-Krieg**: Die Lage bleibt angespannt, mit **laufenden Kämpfen** und internationalen Reaktionen.\n- **Prozess gegen İmamoğlu**: In **Istanbul** begann der Prozess gegen den Bürgermeister **Ekrem İmamoğlu**, der von Applaus begleitet wurde.\n- **Von der Leyen**: Die **EU** müsse ihre **Macht entschiedener einsetzen**, so **Ursula von der Leyen**.\n- **Schüsse auf Rihannas Villa**: In **Los Angeles** wurde auf die Villa der Sängerin **Rihanna** geschossen.\n\n#### **Medien und Gesellschaft**\n- **tagesschau und NDR**: Starten neues **Faktencheck-Format \"rabbit hole\"**.\n- **Kommentar zu Chamenei**: Die **Hardliner** im Iran sitzen noch immer fest im Sattel.\n- **Teilerfolg vor Bundesgerichtshof**: **AstraZeneca** muss Auskunft geben.\n\nDiese Woche war geprägt von politischen Spannungen, internationalen Krisen und gesellschaftlichen Debatten. Die Entwicklungen zeigen, wie wichtig es ist, **informiert und kritisch** zu bleiben.",
+    "2026-W10": "### Wochenrückblick: Politische Umbrüche und sportliche Höhepunkte\n\n#### **Inland**\n- **Grüne überholen CDU im Südwesten**: Die Grünen haben die CDU in Baden-Württemberg überholt, was als **Fehlstart für die Kanzlerpartei** gewertet wird. **Winfried Kretschmann** (Grüne) betont: *\"Fühlt sich gut an, dann geht man gern.\"*\n- **Waffenexporte**: Deutschland ist weltweit **viertgrößter Waffenexporteur** geworden, was internationale Aufmerksamkeit erregt.\n- **Kommunalwahlen**: In München muss ein **Reiter mit Verlusten in die Stichwahl**.\n- **Politische Reaktionen**:\n  - **Jan van Aken** (Linke): *\"Es tut ein bisschen weh.\"*\n  - **Christian Dürr** (FDP): *\"Ergebnis ist bitter.\"*\n  - **Korte** (AfD-Experte): *\"AfD legt nicht einfach nur zu.\"*\n  - **Özdemir** (Grüne): *\"Nicht maximal von der Partei distanziert.\"*\n\n#### **Ausland**\n- **Iran**: **Modschtaba Chamenei**, Sohn des verstorbenen **Ali Chamenei**, wird zum **geistlichen Oberhaupt** gewählt. Die Nachfolge löst internationale Reaktionen aus.\n- **Frauenrechte**: **Zehntausende demonstrieren** für die Rechte von Frauen im Iran.\n\n#### **Sport**\n- **Bundesliga**:\n  - **HSV** setzt **Wolfsburg** unter Druck.\n  - **Freiburg und Leverkusen** bieten ein **Tor-Spektakel**.\n  - **St. Pauli** dominiert defensiv gegen **Frankfurt**.\n  - **Mainz gegen Stuttgart** bleibt spannend.\n- **Kommentar**: *\"Entscheidung im Foto-Finish\"* fasst die dramatischen Momente zusammen.\n\n#### **Fazit**\nDie Woche war geprägt von politischen **Umbrüchen** und **sportlichen Höhepunkten**. Die **Grünen** feiern Erfolge, während die **CDU** Rückschläge verzeichnet. Im **Iran** übernimmt ein neuer Führer die Macht, und die **Bundesliga** bietet spannende Duelle."
+  }
 }

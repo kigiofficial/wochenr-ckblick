@@ -1,4 +1,4 @@
-google-genai
 feedparser
 requests
 python-dotenv
+mistralai

@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <div class="fixed-bg"></div>
@@ -39,6 +40,16 @@
                 <div class="last-updated" id="lastUpdated">Laden...</div>
             </div>
         </header>
+
+        <article id="aiSummary" class="ai-summary-container" style="display: none;">
+            <div class="ai-badge">
+                <span class="ai-icon">✨</span>
+                <span>KI-Rückblick</span>
+            </div>
+            <div id="aiSummaryText" class="ai-summary-text">
+                Generiere Zusammenfassung...
+            </div>
+        </article>
 
         <main class="grid-layout" id="mainContent">
             <!-- Categories will be injected here via JavaScript -->

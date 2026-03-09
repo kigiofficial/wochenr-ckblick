@@ -246,9 +246,10 @@ function renderView() {
                 
                 articleClone.querySelector('.time-tag').textContent = formatTimeAgo(article.date);
                 
-                const link = articleClone.querySelector('a');
+                articleClone.querySelector('.card-title').textContent = article.title;
+                
+                const link = articleClone.querySelector('.read-more-btn');
                 link.href = article.link;
-                link.textContent = article.title;
                 
                 articleClone.querySelector('.card-description').textContent = article.description || "Keine Beschreibung verfügbar.";
                 

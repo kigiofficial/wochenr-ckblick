@@ -49,26 +49,32 @@ def fetch_feed_data():
             else:
                 continue
                 
-            # Filter for the last 7 days
+            # Filter for the last 14 days to have enough history
             days_old = (now - pub_date).days
-            if days_old <= 7:
+            if days_old <= 14:
                 description = getattr(entry, 'description', '')
                 
-                # Check if it was in the past 24 hours
-                is_daily = (now - pub_date).total_seconds() <= 86400
+                # Get the most reliable link
+                link = getattr(entry, 'link', '')
+                if not link and hasattr(entry, 'links'):
+                    for l in entry.links:
+                        if l.get('rel') == 'alternate' or not l.get('rel'):
+                            link = l.get('href')
+                            break
                 
+                if not link:
+                    continue
+
                 article = {
-                    "id": entry.link,
+                    "id": link,
                     "title": entry.title,
-                    "link": entry.link,
+                    "link": link,
                     "description": description,
                     "date": pub_date.isoformat(),
-                    "source": feed_info['source'],
-                    "is_daily": is_daily
+                    "source": feed_info['source']
                 }
                 articles.append(article)
     return articles
-
 def categorize_articles(articles):
     if not articles:
         return []

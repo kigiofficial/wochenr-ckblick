@@ -1,48 +1,84 @@
 {
-  "lastUpdated": "2026-03-09T14:40:00Z",
+  "lastUpdated": "2026-03-09T15:00:00Z",
   "articles": [
     {
-      "title": "Neues Gesetz zur inneren Sicherheit verabschiedet",
-      "description": "Der Bundestag hat heute ein weitreichendes Sicherheitspaket beschlossen. Dies soll blabla... Ein langes Statement, das man jetzt ausklappen kann, um mehr Details zu erfahren.",
-      "link": "https://tagesschau.de",
-      "date": "2026-03-09T10:00:00Z",
+      "title": "Bundestag beschließt Verschärfung des Waffenrechts",
+      "description": "Nach langen Debatten hat der Bundestag heute neue Regelungen zum Waffenbesitz verabschiedet. Das Gesetz sieht unter anderem eine Ausweitung der Messerverbotszonen vor und verschärft die Überprüfung von Antragstellern.",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/bundestag-waffenrecht-100.html",
+      "date": "2026-03-09T14:20:00Z",
       "source": "Tagesschau",
       "category": "Bundesinnenpolitik",
       "is_important": true
     },
     {
-      "title": "Kleine Diskussion im Landtag",
-      "description": "Kurz notiert: Eine Randbemerkung im Plenum führte zu einem kleinen Schmunzler.",
-      "link": "https://zdf.de",
-      "date": "2026-03-09T09:30:00Z",
+      "title": "Streit um Rentenreform: Koalition sucht Kompromiss",
+      "description": "Die Ampel-Partner ringen weiterhin um die Ausgestaltung der geplanten Rentenreform. Während die FDP auf private Vorsorge setzt, pocht die SPD auf ein stabiles Rentenniveau.",
+      "link": "https://www.zdf.de/nachrichten/politik/deutschland/rentenreform-koalition-streit-100.html",
+      "date": "2026-03-09T12:45:00Z",
       "source": "ZDF",
+      "category": "Bundesinnenpolitik",
+      "is_important": true
+    },
+    {
+      "title": "Kommunen fordern mehr Geld für Flüchtlingsunterbringung",
+      "description": "Vertreter der deutschen Städte und Gemeinden haben an den Bund appelliert, die Mittel für die Unterbringung von Geflüchteten deutlich aufzustocken.",
+      "link": "https://www.tagesschau.de/inland/kommunen-finanzierung-102.html",
+      "date": "2026-03-09T10:30:00Z",
+      "source": "Tagesschau",
       "category": "Bundesinnenpolitik",
       "is_important": false
     },
     {
-      "title": "Außenministerin bei EU-Gipfel",
-      "description": "Die deutsche Außenministerin betont die Wichtigkeit der Geschlossenheit Europas...",
-      "link": "https://zdf.de/1",
-      "date": "2026-03-09T08:30:00Z",
+      "title": "EU-Außenminister beraten über neue Sanktionen",
+      "description": "In Brüssel treffen sich heute die Außenminister der Europäischen Union. Hauptthema ist die Erweiterung der Sanktionsliste gegen den Iran aufgrund der jünsten Entwicklungen.",
+      "link": "https://www.tagesschau.de/ausland/europa/eu-aussenminister-sanktionen-100.html",
+      "date": "2026-03-09T13:15:00Z",
+      "source": "Tagesschau",
+      "category": "Ausland (DE)",
+      "is_important": true
+    },
+    {
+      "title": "US-Wahlkampf: Kandidaten konzentrieren sich auf Swing States",
+      "description": "Wenige Monate vor der Wahl intensivieren beide Lager ihre Bemühungen in den entscheidenden Bundesstaaten wie Pennsylvania und Michigan.",
+      "link": "https://www.zdf.de/nachrichten/politik/ausland/usa-wahlkampf-100.html",
+      "date": "2026-03-09T11:00:00Z",
       "source": "ZDF",
       "category": "Ausland (DE)",
       "is_important": true
     },
     {
-      "title": "Kretschmann fordert mehr Investitionen",
-      "description": "Der Ministerpräsident von Baden-Württemberg fordert den Bund auf, schneller Gelder für die Infrastruktur freizugeben...",
-      "link": "https://tagesschau.de/2",
-      "date": "2026-03-08T09:15:00Z",
+      "title": "Landtag Ba-Wü: Debatte über Lehrermangel",
+      "description": "Im Stuttgarter Landtag wird heute über Maßnahmen gegen den akuten Lehrermangel debattiert. Die Opposition wirft der Landesregierung Versäumnisse bei der Planung vor.",
+      "link": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/lehrermangel-landtag-100.html",
+      "date": "2026-03-09T15:00:00Z",
       "source": "Tagesschau",
       "category": "Landespolitik von ba-Wü",
       "is_important": true
     },
     {
-      "title": "DAX erreicht neues Rekordhoch",
-      "description": "Gute Quartalszahlen treiben den deutschen Leitindex auf ein neues Allzeithoch...",
-      "link": "https://tagesschau.de/3",
-      "date": "2026-03-02T11:45:00Z",
+      "title": "Winfried Kretschmann besucht neues Batteriewerk in Ellwangen",
+      "description": "Der Ministerpräsident betonte bei seinem Besuch die Bedeutung von Innovationen im Bereich der Elektromobilität für den Wirtschaftsstandort Baden-Württemberg.",
+      "link": "https://www.zdf.de/nachrichten/wirtschaft/kretschmann-besuch-ellwangen-100.html",
+      "date": "2026-03-09T09:00:00Z",
+      "source": "ZDF",
+      "category": "Landespolitik von ba-Wü",
+      "is_important": true
+    },
+    {
+      "title": "Inflation sinkt überraschend stark auf 2,1 Prozent",
+      "description": "Die Teuerungsrate in Deutschland hat sich im Februar deutlicher abgeschwächt als von Experten erwartet. Vor allem sinkende Energiepreise sorgten für Entlastung.",
+      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/inflation-deutschland-februar-100.html",
+      "date": "2026-03-09T14:45:00Z",
       "source": "Tagesschau",
+      "category": "Wirtschaft",
+      "is_important": true
+    },
+    {
+      "title": "Automobilzulieferer kündigt Stellenabbau an",
+      "description": "Einer der größten deutschen Automobilzulieferer plant den Abbau von weltweit rund 5000 Stellen. Begründet wird dieser Schritt mit der schwierigen Marktlage und dem Umstieg auf E-Mobilität.",
+      "link": "https://www.zdf.de/nachrichten/wirtschaft/stellenabbau-automobilzulieferer-100.html",
+      "date": "2026-03-09T13:30:00Z",
+      "source": "ZDF",
       "category": "Wirtschaft",
       "is_important": true
     }

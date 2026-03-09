@@ -13,12 +13,21 @@ load_dotenv()
 # Configure Gemini API
 API_KEY = os.getenv("GEMINI_API_KEY")
 if not API_KEY:
-    print("Warning: GEMINI_API_KEY is not set. Classification will return empty or mock data if API limits hit/error. Please configure it.")
+    print("Warning: GEMINI_API_KEY is not set.")
 
 genai.configure(api_key=API_KEY)
 
-# Using a standard fast model
-model = genai.GenerativeModel('gemini-2.0-flash')
+# News often contains sensitive topics (war, accidents) which can trigger safety filters.
+# We set these to BLOCK_NONE to ensure the scraper works for all news.
+safety_settings = [
+    {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+    {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+    {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+    {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
+]
+
+# Using 1.5 flash as it is very stable and widely available
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Feeds
 FEEDS = [
@@ -41,6 +50,9 @@ def fetch_feed_data():
     for feed_info in FEEDS:
         print(f"Fetching RSS feed from {feed_info['source']}...")
         parsed_feed = feedparser.parse(feed_info["url"])
+        
+        if not parsed_feed.entries:
+            print(f"Warning: No entries found for {feed_info['source']}.")
         
         for entry in parsed_feed.entries:
             # Parse published date
@@ -74,7 +86,10 @@ def fetch_feed_data():
                     "source": feed_info['source']
                 }
                 articles.append(article)
+    
+    print(f"Total articles fetched: {len(articles)}")
     return articles
+
 def categorize_articles(articles):
     if not articles:
         return []
@@ -103,14 +118,19 @@ def categorize_articles(articles):
     Articles:
     {json.dumps(articles_payload, ensure_ascii=False)}
 
-    Output valid JSON ONLY. The JSON must be a list of objects, where each object has "idx" (integer), "category" (string), and "important" (boolean). Ensure the output is strictly parsable JSON, no markdown formatting like ```json.
+    Output valid JSON ONLY. The JSON must be a list of objects, where each object has "idx" (integer), "category" (string), and "important" (boolean).
     """
     
     try:
         if not API_KEY:
-            raise ValueError("No API Key")
+            raise ValueError("GEMINI_API_KEY is empty or not set.")
         
-        response = model.generate_content(prompt)
+        response = model.generate_content(prompt, safety_settings=safety_settings)
+        
+        if not response.text:
+            print("AI response was empty. Check safety filters or prompt.")
+            return articles # Return un-categorized
+
         text_response = response.text.strip()
         
         # Remove markdown notation if the model returns it
@@ -122,20 +142,23 @@ def categorize_articles(articles):
         classification_result = json.loads(text_response.strip())
         
         # Map back to articles
+        count = 0
         for item in classification_result:
             idx = item.get("idx")
             cat = item.get("category", "Andere")
             important = item.get("important", False)
             if idx is not None and idx < len(articles):
-                # Ensure category is exactly one of the known ones
                 if cat not in CATEGORIES:
                     cat = "Andere"
                 articles[idx]["category"] = cat
                 articles[idx]["is_important"] = important
+                count += 1
+        print(f"Successfully categorized {count} articles.")
                 
     except Exception as e:
         print(f"Error during AI categorization: {e}")
-        # Fallback to 'Andere' on error
+        if hasattr(e, 'message'): print(f"Details: {e.message}")
+        # Mark all as Andere so they don't break the JSON but won't be shown as fake news
         for a in articles:
             a["category"] = "Andere"
             a["is_important"] = False
